@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/night-time-temperature"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "../__files/sunriseSunset.json"
+  }
+}

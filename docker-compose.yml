@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+        wiremock:
+                build:
+                      dockerfile: Dockerfile.wiremock
+                      context: .
+                ports:
+                        - 8082:8080
